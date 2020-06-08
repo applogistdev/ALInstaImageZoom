@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALInstaImageZoom_Example' do
+  pod 'ALInstaImageZoom', :path => '../'
+
+  target 'ALInstaImageZoom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
