@@ -74,7 +74,7 @@ final class ALInstaImageZoom: UIImageView {
             
             if let topView = UIApplication.shared.keyWindow?.rootViewController?.view {
                 topView.addSubview(overlayView!)
-                topView.sendSubview(toBack: overlayView!)
+                topView.sendSubviewToBack(overlayView!)
             }
         }
         

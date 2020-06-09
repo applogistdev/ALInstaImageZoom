@@ -25,6 +25,7 @@ s.source           = { :git => 'https://github.com/applogistdev/ALInstaImageZoom
 
 
 s.ios.deployment_target = '9.3'
+s.swift_version = '5.0'
 
 s.source_files = 'ALInstaImageZoom/Classes/**/*'
 
