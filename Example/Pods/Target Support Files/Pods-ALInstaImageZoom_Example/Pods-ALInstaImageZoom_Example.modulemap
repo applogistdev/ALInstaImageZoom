@@ -1,0 +1,6 @@
+framework module Pods_ALInstaImageZoom_Example {
+  umbrella header "Pods-ALInstaImageZoom_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

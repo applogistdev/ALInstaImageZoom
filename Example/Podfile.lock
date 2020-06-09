@@ -1,0 +1,16 @@
+PODS:
+  - ALInstaImageZoom (0.1.0)
+
+DEPENDENCIES:
+  - ALInstaImageZoom (from `../`)
+
+EXTERNAL SOURCES:
+  ALInstaImageZoom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ALInstaImageZoom: 123a247f0e6d91165026f160545aebea8db26d6b
+
+PODFILE CHECKSUM: b3c4982915dd1162038f8a763f607c3e68291fcf
+
+COCOAPODS: 1.9.0
