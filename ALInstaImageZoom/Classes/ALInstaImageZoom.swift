@@ -1,7 +1,7 @@
 import UIKit
 import CoreGraphics.CGGeometry
 
-final class ALInstaImageZoom: UIImageView {
+final public class ALInstaImageZoom: UIImageView {
     
     private var panGesture = UIPanGestureRecognizer()
     private var pinchGesture = UIPinchGestureRecognizer()
@@ -187,7 +187,7 @@ final class ALInstaImageZoom: UIImageView {
 }
 
 extension ALInstaImageZoom: UIGestureRecognizerDelegate {
-    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer,
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer,
                            shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
