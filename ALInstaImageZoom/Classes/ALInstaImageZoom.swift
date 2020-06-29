@@ -6,7 +6,12 @@ final class ALInstaImageZoom: UIImageView {
     private var panGesture = UIPanGestureRecognizer()
     private var pinchGesture = UIPinchGestureRecognizer()
     private var initialPoint: CGPoint = .zero
+    
     private var overlayView: UIView?
+    private var initialSuperView: UIView?
+    private var parentScrollView: UIScrollView?
+    
+    private var copyImageView: UIImageView?
     
     
     override init(frame: CGRect) {
@@ -47,19 +52,26 @@ final class ALInstaImageZoom: UIImageView {
     
     
     private func resetZooming() {
-        UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut, animations: {
+        UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {
             self.transform = .identity
+            self.copyImageView?.transform = .identity
             self.center = self.initialPoint
         })
         hideOverlayView()
+        unlockParentScrollView()
     }
     
     private func hideOverlayView() {
-        UIView.animate(withDuration: 0.2, animations: {
+        UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {
             self.overlayView?.alpha = 0
+            self.alpha = 1
+            
         }, completion: { (done) in
             self.overlayView?.removeFromSuperview()
             self.overlayView = nil
+            
+            self.copyImageView?.removeFromSuperview()
+            self.copyImageView = nil
         })
     }
     
@@ -72,11 +84,26 @@ final class ALInstaImageZoom: UIImageView {
             overlayView?.backgroundColor = .black
             overlayView?.isUserInteractionEnabled = false
             
-            if let topView = UIApplication.shared.keyWindow?.rootViewController?.view {
-                topView.addSubview(overlayView!)
-                topView.sendSubviewToBack(overlayView!)
+            initialSuperView = superview
+            
+            lockParentScrollView()
+            
+           
+
+            if let topVC = UIApplication.getTopViewController(base: self.parentViewController) {
+                
+                let realFrame = topVC.view.convert(frame, from: superview)
+                copyImageView = UIImageView(frame: realFrame)
+                copyImageView?.image = image
+                copyImageView?.contentMode = .scaleAspectFit
+                copyImageView?.isUserInteractionEnabled = false
+                alpha = 0
+              
+                topVC.view.addSubview(overlayView!)
+                topVC.view.addSubview(copyImageView!)
             }
         }
+        
         
         var overlayAlpha: CGFloat = 0
         
@@ -87,10 +114,28 @@ final class ALInstaImageZoom: UIImageView {
         } else {
             overlayAlpha = 1
         }
-        UIView.animate(withDuration: 0.1) {
-            self.overlayView?.alpha = overlayAlpha
+        self.overlayView?.alpha = overlayAlpha
+    }
+    
+    private func lockParentScrollView() {
+        
+        var tmpView: UIView? = self
+        
+        while tmpView?.superview != nil {
+            tmpView = tmpView?.superview
+            if tmpView?.isKind(of: UIScrollView.self) ?? false {
+                parentScrollView = tmpView as? UIScrollView
+                parentScrollView?.isScrollEnabled = false
+                break
+            }
         }
     }
+    
+    private func unlockParentScrollView() {
+        parentScrollView?.isScrollEnabled = true
+    }
+    
+    
     
     @IBAction private func handlePinchGesture(_ gesture: UIPinchGestureRecognizer) {
         switch gesture.state {
@@ -98,12 +143,15 @@ final class ALInstaImageZoom: UIImageView {
                 
                     let pinchCenter = CGPoint(x: gesture.location(in: self).x - self.bounds.midX,
                                               y: gesture.location(in: self).y - self.bounds.midY)
-                    debugPrint("center: \(pinchCenter)")
+                    
                     let transform = self.transform.translatedBy(x: pinchCenter.x, y: pinchCenter.y)
                         .scaledBy(x: gesture.scale, y: gesture.scale)
                         .translatedBy(x: -pinchCenter.x, y: -pinchCenter.y)
+                    
+                    copyImageView?.transform = transform
                     self.transform = transform
                     gesture.scale = 1
+                    
                     updateOverlayView(scale: transform.a)
                     
                     if transform.a <= 1 {
@@ -118,16 +166,22 @@ final class ALInstaImageZoom: UIImageView {
     
     
     @IBAction private func handlePanGesture(_ gesture: UIPanGestureRecognizer) {
-        switch gesture.state {
-            case .began, .changed:
-            
-                let translation =  gesture.translation(in: self)
-                self.center = CGPoint(x: self.center.x + translation.x, y: self.center.y + translation.y)
-                gesture.setTranslation(.zero, in: self)
-            
-            default:
-                resetZooming()
-        }
+        // TODO: There is a problem with pan gesture. Needs work perfect with pinch but there is some glitch.
+        // FIXME: Need to fix.
+        
+//        switch gesture.state {
+//            case .began, .changed:
+//
+//                let topView = overlayView ?? self
+//                let translation =  gesture.translation(in: topView)
+//                let newPoint = CGPoint(x: self.center.x + translation.x, y: self.center.y + translation.y)
+//                copyImageView?.center = newPoint
+//                self.center = newPoint
+//                gesture.setTranslation(.zero, in: topView)
+//
+//            default:
+//                resetZooming()
+//        }
     }
     
 }

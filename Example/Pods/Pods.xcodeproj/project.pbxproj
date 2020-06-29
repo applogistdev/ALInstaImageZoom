@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD8011CC95B18E96F480D2E4306E12E /* Pods-ALInstaImageZoom_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDC43F319217873CD51B8CEC2C4ECF3 /* Pods-ALInstaImageZoom_Example-dummy.m */; };
-		3111B95F5C729EE9A616B87313A3303D /* Pods-ALInstaImageZoom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E28D2B268BC39E8A72AEAD43769AB2 /* Pods-ALInstaImageZoom_Tests-dummy.m */; };
-		41C62046ABDADF4C1CF9DCF8C31EEB1E /* ALInstaImageZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B585AEB3C58C4C64FE910784C37CA39 /* ALInstaImageZoom.swift */; };
-		45D2A72862690739289F7D88A79DC523 /* Pods-ALInstaImageZoom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8F7AA22E831BA5D8668D6D2ABF5D76 /* Pods-ALInstaImageZoom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65437ED512CFF2B8A7A1F4B901EE894F /* ALInstaImageZoom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000507ED86E65D4ACDF59262DF78E5EB /* ALInstaImageZoom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FA1B51E270736EE629F51F309FBA0EA /* Pods-ALInstaImageZoom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04467E3268316E7499107642EBCCA395 /* Pods-ALInstaImageZoom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0BA25F01330198110B77A04DF6040A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B1B5926D3A55517CB5ECBB88BC3948E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CECC94C4F21BB1EC6BF6ED491B286B49 /* ALInstaImageZoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC0E1CD75AC5CB31E0E6D09C9647AF0 /* ALInstaImageZoom-dummy.m */; };
-		D4010F624A27E2C709EE597EC14EFED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0BD8011CC95B18E96F480D2E4306E12E /* Pods-ALInstaImageZoom_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A923A86921F1D9702DB6BE06C9573C /* Pods-ALInstaImageZoom_Example-dummy.m */; };
+		1E7D00E878E61B76C1337A317D3CC011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		45D2A72862690739289F7D88A79DC523 /* Pods-ALInstaImageZoom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B7D8A114A94CD58B3ACDF7706476AF /* Pods-ALInstaImageZoom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55DADC3D96E0630EFB8DFAB126EDFC37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5C6293BAFFD83394F1081E580B9DF778 /* AL-Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A682C26E1BDCCFF687CF28ADC5EA455 /* AL-Ext.swift */; };
+		6962C5A98AAB07C470FD8AF5A6299436 /* ALInstaImageZoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD527AEB96B678492FFA59EAEB819F7 /* ALInstaImageZoom-dummy.m */; };
+		7441DF2A5713BF85C7A1FBE2E0E8DC23 /* ALInstaImageZoom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DDD6F8B0B6966B9118B0B572A53328 /* ALInstaImageZoom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48EBE0CEF35CCF27B954E60E3294635 /* ALInstaImageZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886505FE606525944B4F3F7B9D11ED6 /* ALInstaImageZoom.swift */; };
+		B0BA25F01330198110B77A04DF6040A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,68 +26,38 @@
 			remoteGlobalIDString = F5DA33683AE077A5495C54680A89284A;
 			remoteInfo = ALInstaImageZoom;
 		};
-		D2256CED67A4E2CD62B92AB077DCD63E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A104B5B5E45883A1A9F56615F24EF6B;
-			remoteInfo = "Pods-ALInstaImageZoom_Example";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000507ED86E65D4ACDF59262DF78E5EB /* ALInstaImageZoom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALInstaImageZoom-umbrella.h"; sourceTree = "<group>"; };
-		002A8EDE1812D85C102CEA96530FA7B9 /* ALInstaImageZoom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALInstaImageZoom-Info.plist"; sourceTree = "<group>"; };
-		04467E3268316E7499107642EBCCA395 /* Pods-ALInstaImageZoom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALInstaImageZoom_Tests-umbrella.h"; sourceTree = "<group>"; };
-		09E28D2B268BC39E8A72AEAD43769AB2 /* Pods-ALInstaImageZoom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALInstaImageZoom_Tests-dummy.m"; sourceTree = "<group>"; };
-		0CDC43F319217873CD51B8CEC2C4ECF3 /* Pods-ALInstaImageZoom_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALInstaImageZoom_Example-dummy.m"; sourceTree = "<group>"; };
+		04419E7FD49C3250BC056720C8AFA34F /* Pods-ALInstaImageZoom_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALInstaImageZoom_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		051833FB3BBD0DA7409CA054EF6F1174 /* Pods-ALInstaImageZoom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0FDB82F80A693EB696284138B9B603BF /* Pods_ALInstaImageZoom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALInstaImageZoom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C38E9163D3B38A0926E2D62E10BEB8F /* Pods-ALInstaImageZoom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D1D3DC1EF3A2F292D80B3854EBD2157 /* Pods-ALInstaImageZoom_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALInstaImageZoom_Example-frameworks.sh"; sourceTree = "<group>"; };
-		20A57D8241827BC0013A3E80D596F016 /* ALInstaImageZoom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALInstaImageZoom-prefix.pch"; sourceTree = "<group>"; };
-		24E6E0A073381D33FC7958E6280507C0 /* Pods-ALInstaImageZoom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2872E62148E30C7D21E5A453E9A4A4CB /* ALInstaImageZoom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ALInstaImageZoom.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34C968DF568C58BD3326A607DB3B6011 /* Pods-ALInstaImageZoom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		379BEF15FB81CE10DCD7FF2C7AEE6A3E /* Pods-ALInstaImageZoom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E6FB3CFB0976278DDD9F801302673FE /* Pods-ALInstaImageZoom_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALInstaImageZoom_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E8F7AA22E831BA5D8668D6D2ABF5D76 /* Pods-ALInstaImageZoom_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALInstaImageZoom_Example-umbrella.h"; sourceTree = "<group>"; };
-		4190B0A16935C11496B4D8F91683D49E /* Pods-ALInstaImageZoom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALInstaImageZoom_Tests.modulemap"; sourceTree = "<group>"; };
-		4505B922A746A9EB330714FD322CA41A /* ALInstaImageZoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALInstaImageZoom.release.xcconfig; sourceTree = "<group>"; };
-		47384FF34BEBD78EC7C797C2B1823ED4 /* Pods-ALInstaImageZoom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		550B80019E916F8A06374E23BDF8B4B3 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		129A5018EE79FCA6B8DA5FF2E9F5D6F4 /* ALInstaImageZoom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALInstaImageZoom.modulemap; sourceTree = "<group>"; };
+		1886505FE606525944B4F3F7B9D11ED6 /* ALInstaImageZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALInstaImageZoom.swift; path = ALInstaImageZoom/Classes/ALInstaImageZoom.swift; sourceTree = "<group>"; };
+		1E163D53D0B03BD16D598EFED3DC89B2 /* Pods-ALInstaImageZoom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		31A923A86921F1D9702DB6BE06C9573C /* Pods-ALInstaImageZoom_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALInstaImageZoom_Example-dummy.m"; sourceTree = "<group>"; };
+		3622C9DF8BF1A19A38EA84A4BAD0AA67 /* ALInstaImageZoom.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ALInstaImageZoom.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		466A3C336F0609C90109327D693CD34B /* Pods-ALInstaImageZoom_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALInstaImageZoom_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A682C26E1BDCCFF687CF28ADC5EA455 /* AL-Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AL-Ext.swift"; path = "ALInstaImageZoom/Classes/AL-Ext.swift"; sourceTree = "<group>"; };
+		540A357D90E8BCC544F907C25F74EFC0 /* ALInstaImageZoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALInstaImageZoom.debug.xcconfig; sourceTree = "<group>"; };
+		60FC632062F001ADDFAD8D1781EFD410 /* Pods-ALInstaImageZoom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALInstaImageZoom_Example.modulemap"; sourceTree = "<group>"; };
 		64FE98B7D1F93826769FC72A76840E97 /* ALInstaImageZoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALInstaImageZoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E2F9D3747432385EF6B35BB9A3AA2CE /* Pods-ALInstaImageZoom_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Example-Info.plist"; sourceTree = "<group>"; };
-		75DC507DF749852883E6E2388D39C2F1 /* Pods_ALInstaImageZoom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALInstaImageZoom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87FD5AE9EE952225AEE972977D293D3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		89FFA88D0D1DC9365022207A67FDECFF /* Pods-ALInstaImageZoom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALInstaImageZoom_Example.modulemap"; sourceTree = "<group>"; };
-		8EC0E1CD75AC5CB31E0E6D09C9647AF0 /* ALInstaImageZoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALInstaImageZoom-dummy.m"; sourceTree = "<group>"; };
-		9B585AEB3C58C4C64FE910784C37CA39 /* ALInstaImageZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALInstaImageZoom.swift; path = ALInstaImageZoom/Classes/ALInstaImageZoom.swift; sourceTree = "<group>"; };
-		9CEE5CCDD7E44D766BDD5F8137E6591F /* ALInstaImageZoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALInstaImageZoom.debug.xcconfig; sourceTree = "<group>"; };
+		73F8E370D165A1C509317B6447787FB0 /* ALInstaImageZoom-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALInstaImageZoom-Info.plist"; sourceTree = "<group>"; };
+		795B0A6BD41460CCEC6016E9EFE4E5D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7C062112823840EF17590D4E6A84E4A9 /* ALInstaImageZoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALInstaImageZoom.release.xcconfig; sourceTree = "<group>"; };
+		80DDD6F8B0B6966B9118B0B572A53328 /* ALInstaImageZoom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALInstaImageZoom-umbrella.h"; sourceTree = "<group>"; };
+		8351718CFDD11C10B5BA5170BE9C21E2 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALInstaImageZoom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C26CF25AC0495D62F33EF379B2A9FB8A /* ALInstaImageZoom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALInstaImageZoom.modulemap; sourceTree = "<group>"; };
-		CFDD6F8FBAD82A3E90CB6AACAC569AC1 /* Pods-ALInstaImageZoom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALInstaImageZoom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EB8B8EF5323F441F0F39938EFD5E8085 /* Pods-ALInstaImageZoom_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Tests-Info.plist"; sourceTree = "<group>"; };
-		FF1F45DC3C01CF49F37B857586CEEE0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C246F0E6F6C9EFBA4194989DB7226B15 /* ALInstaImageZoom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALInstaImageZoom-prefix.pch"; sourceTree = "<group>"; };
+		CB862B07302AC53674BB3E5ACE7E8FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D5B7D8A114A94CD58B3ACDF7706476AF /* Pods-ALInstaImageZoom_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALInstaImageZoom_Example-umbrella.h"; sourceTree = "<group>"; };
+		DE89B42E333AFA5DCB937C5EDBAF141A /* Pods-ALInstaImageZoom_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALInstaImageZoom_Example-Info.plist"; sourceTree = "<group>"; };
+		ECD527AEB96B678492FFA59EAEB819F7 /* ALInstaImageZoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALInstaImageZoom-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FDF1FF9A3FE1B1655AFF4E6A1FCBE54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1B5926D3A55517CB5ECBB88BC3948E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		493712C37BC36A28FDB961AE5B04F368 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D4010F624A27E2C709EE597EC14EFED6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		782176563611DE18A84E045046B18D49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,140 +66,133 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4E26185939A40368F9F6F3C39F6D49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55DADC3D96E0630EFB8DFAB126EDFC37 /* Foundation.framework in Frameworks */,
+				1E7D00E878E61B76C1337A317D3CC011 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00F57903C8A474595156D6F93277444F /* Pods-ALInstaImageZoom_Tests */ = {
+		0B580B3E3BB9110CEC7B53B65938BFA9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4190B0A16935C11496B4D8F91683D49E /* Pods-ALInstaImageZoom_Tests.modulemap */,
-				CFDD6F8FBAD82A3E90CB6AACAC569AC1 /* Pods-ALInstaImageZoom_Tests-acknowledgements.markdown */,
-				1C38E9163D3B38A0926E2D62E10BEB8F /* Pods-ALInstaImageZoom_Tests-acknowledgements.plist */,
-				09E28D2B268BC39E8A72AEAD43769AB2 /* Pods-ALInstaImageZoom_Tests-dummy.m */,
-				EB8B8EF5323F441F0F39938EFD5E8085 /* Pods-ALInstaImageZoom_Tests-Info.plist */,
-				04467E3268316E7499107642EBCCA395 /* Pods-ALInstaImageZoom_Tests-umbrella.h */,
-				379BEF15FB81CE10DCD7FF2C7AEE6A3E /* Pods-ALInstaImageZoom_Tests.debug.xcconfig */,
-				34C968DF568C58BD3326A607DB3B6011 /* Pods-ALInstaImageZoom_Tests.release.xcconfig */,
-			);
-			name = "Pods-ALInstaImageZoom_Tests";
-			path = "Target Support Files/Pods-ALInstaImageZoom_Tests";
-			sourceTree = "<group>";
-		};
-		01C941C8ED85701FB28A9DAB8FD324E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C26CF25AC0495D62F33EF379B2A9FB8A /* ALInstaImageZoom.modulemap */,
-				8EC0E1CD75AC5CB31E0E6D09C9647AF0 /* ALInstaImageZoom-dummy.m */,
-				002A8EDE1812D85C102CEA96530FA7B9 /* ALInstaImageZoom-Info.plist */,
-				20A57D8241827BC0013A3E80D596F016 /* ALInstaImageZoom-prefix.pch */,
-				000507ED86E65D4ACDF59262DF78E5EB /* ALInstaImageZoom-umbrella.h */,
-				9CEE5CCDD7E44D766BDD5F8137E6591F /* ALInstaImageZoom.debug.xcconfig */,
-				4505B922A746A9EB330714FD322CA41A /* ALInstaImageZoom.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ALInstaImageZoom";
-			sourceTree = "<group>";
-		};
-		0F8BFFD30483D1E2D979F7DDEC456FCE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7262D66EC548785F2C01871041A8D936 /* Pods-ALInstaImageZoom_Example */,
-				00F57903C8A474595156D6F93277444F /* Pods-ALInstaImageZoom_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		245EC61FA8A8CA86785705E3C8A3E12B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2872E62148E30C7D21E5A453E9A4A4CB /* ALInstaImageZoom.podspec */,
-				87FD5AE9EE952225AEE972977D293D3D /* LICENSE */,
-				FF1F45DC3C01CF49F37B857586CEEE0C /* README.md */,
+				3622C9DF8BF1A19A38EA84A4BAD0AA67 /* ALInstaImageZoom.podspec */,
+				CB862B07302AC53674BB3E5ACE7E8FE2 /* LICENSE */,
+				795B0A6BD41460CCEC6016E9EFE4E5D5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		40687F35CA614B43A2D43DA3D13323F3 /* Products */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64FE98B7D1F93826769FC72A76840E97 /* ALInstaImageZoom.framework */,
-				0FDB82F80A693EB696284138B9B603BF /* Pods_ALInstaImageZoom_Example.framework */,
-				75DC507DF749852883E6E2388D39C2F1 /* Pods_ALInstaImageZoom_Tests.framework */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7262D66EC548785F2C01871041A8D936 /* Pods-ALInstaImageZoom_Example */ = {
+		3C1100B175B032B9E4AB069E41517AC1 /* ALInstaImageZoom */ = {
 			isa = PBXGroup;
 			children = (
-				89FFA88D0D1DC9365022207A67FDECFF /* Pods-ALInstaImageZoom_Example.modulemap */,
-				3E6FB3CFB0976278DDD9F801302673FE /* Pods-ALInstaImageZoom_Example-acknowledgements.markdown */,
-				47384FF34BEBD78EC7C797C2B1823ED4 /* Pods-ALInstaImageZoom_Example-acknowledgements.plist */,
-				0CDC43F319217873CD51B8CEC2C4ECF3 /* Pods-ALInstaImageZoom_Example-dummy.m */,
-				1D1D3DC1EF3A2F292D80B3854EBD2157 /* Pods-ALInstaImageZoom_Example-frameworks.sh */,
-				6E2F9D3747432385EF6B35BB9A3AA2CE /* Pods-ALInstaImageZoom_Example-Info.plist */,
-				3E8F7AA22E831BA5D8668D6D2ABF5D76 /* Pods-ALInstaImageZoom_Example-umbrella.h */,
-				550B80019E916F8A06374E23BDF8B4B3 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */,
-				24E6E0A073381D33FC7958E6280507C0 /* Pods-ALInstaImageZoom_Example.release.xcconfig */,
-			);
-			name = "Pods-ALInstaImageZoom_Example";
-			path = "Target Support Files/Pods-ALInstaImageZoom_Example";
-			sourceTree = "<group>";
-		};
-		AD5302664F664BA9F375FE845DC83EDF /* ALInstaImageZoom */ = {
-			isa = PBXGroup;
-			children = (
-				9B585AEB3C58C4C64FE910784C37CA39 /* ALInstaImageZoom.swift */,
-				245EC61FA8A8CA86785705E3C8A3E12B /* Pod */,
-				01C941C8ED85701FB28A9DAB8FD324E3 /* Support Files */,
+				4A682C26E1BDCCFF687CF28ADC5EA455 /* AL-Ext.swift */,
+				1886505FE606525944B4F3F7B9D11ED6 /* ALInstaImageZoom.swift */,
+				0B580B3E3BB9110CEC7B53B65938BFA9 /* Pod */,
+				461588A9FA28897C763B87D2D32DE44D /* Support Files */,
 			);
 			name = ALInstaImageZoom;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BB7D906D444FDAD02A420305A02C8E5C /* Development Pods */ = {
+		461588A9FA28897C763B87D2D32DE44D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD5302664F664BA9F375FE845DC83EDF /* ALInstaImageZoom */,
+				129A5018EE79FCA6B8DA5FF2E9F5D6F4 /* ALInstaImageZoom.modulemap */,
+				ECD527AEB96B678492FFA59EAEB819F7 /* ALInstaImageZoom-dummy.m */,
+				73F8E370D165A1C509317B6447787FB0 /* ALInstaImageZoom-Info.plist */,
+				C246F0E6F6C9EFBA4194989DB7226B15 /* ALInstaImageZoom-prefix.pch */,
+				80DDD6F8B0B6966B9118B0B572A53328 /* ALInstaImageZoom-umbrella.h */,
+				540A357D90E8BCC544F907C25F74EFC0 /* ALInstaImageZoom.debug.xcconfig */,
+				7C062112823840EF17590D4E6A84E4A9 /* ALInstaImageZoom.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ALInstaImageZoom";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		6A2EB67D37301F4911B1808CC1A7B6F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				64FE98B7D1F93826769FC72A76840E97 /* ALInstaImageZoom.framework */,
+				0FDB82F80A693EB696284138B9B603BF /* Pods_ALInstaImageZoom_Example.framework */,
 			);
-			name = iOS;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A502B174AA8A4C5AAB8CFD2DFD0DF6B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCEC33AE8974E4A2BD908D0B88816CC /* Pods-ALInstaImageZoom_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BB7D906D444FDAD02A420305A02C8E5C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				40687F35CA614B43A2D43DA3D13323F3 /* Products */,
-				0F8BFFD30483D1E2D979F7DDEC456FCE /* Targets Support Files */,
+				D1AEB17762C4D0D69658DDFCAF44BF11 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6A2EB67D37301F4911B1808CC1A7B6F7 /* Products */,
+				A502B174AA8A4C5AAB8CFD2DFD0DF6B3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D1AEB17762C4D0D69658DDFCAF44BF11 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				3C1100B175B032B9E4AB069E41517AC1 /* ALInstaImageZoom */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DDCEC33AE8974E4A2BD908D0B88816CC /* Pods-ALInstaImageZoom_Example */ = {
+			isa = PBXGroup;
+			children = (
+				60FC632062F001ADDFAD8D1781EFD410 /* Pods-ALInstaImageZoom_Example.modulemap */,
+				04419E7FD49C3250BC056720C8AFA34F /* Pods-ALInstaImageZoom_Example-acknowledgements.markdown */,
+				051833FB3BBD0DA7409CA054EF6F1174 /* Pods-ALInstaImageZoom_Example-acknowledgements.plist */,
+				31A923A86921F1D9702DB6BE06C9573C /* Pods-ALInstaImageZoom_Example-dummy.m */,
+				466A3C336F0609C90109327D693CD34B /* Pods-ALInstaImageZoom_Example-frameworks.sh */,
+				DE89B42E333AFA5DCB937C5EDBAF141A /* Pods-ALInstaImageZoom_Example-Info.plist */,
+				D5B7D8A114A94CD58B3ACDF7706476AF /* Pods-ALInstaImageZoom_Example-umbrella.h */,
+				8351718CFDD11C10B5BA5170BE9C21E2 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */,
+				1E163D53D0B03BD16D598EFED3DC89B2 /* Pods-ALInstaImageZoom_Example.release.xcconfig */,
+			);
+			name = "Pods-ALInstaImageZoom_Example";
+			path = "Target Support Files/Pods-ALInstaImageZoom_Example";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D6360AD8F31925A21384105CA97BAC9 /* Headers */ = {
+		8D4ECF2D5DD3E443BC0FFC712F7B06FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FA1B51E270736EE629F51F309FBA0EA /* Pods-ALInstaImageZoom_Tests-umbrella.h in Headers */,
+				7441DF2A5713BF85C7A1FBE2E0E8DC23 /* ALInstaImageZoom-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,14 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D2A72862690739289F7D88A79DC523 /* Pods-ALInstaImageZoom_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D9269514D26C2D1C31469748846A12F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65437ED512CFF2B8A7A1F4B901EE894F /* ALInstaImageZoom-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,33 +226,14 @@
 			productReference = 0FDB82F80A693EB696284138B9B603BF /* Pods_ALInstaImageZoom_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		971CC8A0D820213A680F99B602BFFA29 /* Pods-ALInstaImageZoom_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B136C04E0DCA7C6912B03FAE6FE2C26 /* Build configuration list for PBXNativeTarget "Pods-ALInstaImageZoom_Tests" */;
-			buildPhases = (
-				2D6360AD8F31925A21384105CA97BAC9 /* Headers */,
-				6CA6A19B989608328BFCCFBA0D163F5A /* Sources */,
-				493712C37BC36A28FDB961AE5B04F368 /* Frameworks */,
-				AE1392DC5F5CE64DA3E49A54E5C399AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21B1699FDC7FC6119C7A5785228188A2 /* PBXTargetDependency */,
-			);
-			name = "Pods-ALInstaImageZoom_Tests";
-			productName = "Pods-ALInstaImageZoom_Tests";
-			productReference = 75DC507DF749852883E6E2388D39C2F1 /* Pods_ALInstaImageZoom_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		F5DA33683AE077A5495C54680A89284A /* ALInstaImageZoom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4011DC11B34CCD46EAE4D66C6B2ECE /* Build configuration list for PBXNativeTarget "ALInstaImageZoom" */;
+			buildConfigurationList = A4D239BD10329E52BC4F10366DB82467 /* Build configuration list for PBXNativeTarget "ALInstaImageZoom" */;
 			buildPhases = (
-				D9269514D26C2D1C31469748846A12F2 /* Headers */,
-				51E3FFACA14A4ECB5EFD6CF9F8F3C328 /* Sources */,
-				2FDF1FF9A3FE1B1655AFF4E6A1FCBE54 /* Frameworks */,
-				F4335CF5CB8035FEF6E3D608F835F0D0 /* Resources */,
+				8D4ECF2D5DD3E443BC0FFC712F7B06FC /* Headers */,
+				67DA24A8E354205309FFA7A1EEE1D4FA /* Sources */,
+				D4E26185939A40368F9F6F3C39F6D49C /* Frameworks */,
+				CD9127E684B17B16035C81EE896BF48D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,11 +252,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					F5DA33683AE077A5495C54680A89284A = {
-						LastSwiftMigration = 1150;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -332,19 +262,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 40687F35CA614B43A2D43DA3D13323F3 /* Products */;
+			productRefGroup = 6A2EB67D37301F4911B1808CC1A7B6F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F5DA33683AE077A5495C54680A89284A /* ALInstaImageZoom */,
 				5A104B5B5E45883A1A9F56615F24EF6B /* Pods-ALInstaImageZoom_Example */,
-				971CC8A0D820213A680F99B602BFFA29 /* Pods-ALInstaImageZoom_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE1392DC5F5CE64DA3E49A54E5C399AA /* Resources */ = {
+		CD9127E684B17B16035C81EE896BF48D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -358,30 +287,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4335CF5CB8035FEF6E3D608F835F0D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51E3FFACA14A4ECB5EFD6CF9F8F3C328 /* Sources */ = {
+		67DA24A8E354205309FFA7A1EEE1D4FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CECC94C4F21BB1EC6BF6ED491B286B49 /* ALInstaImageZoom-dummy.m in Sources */,
-				41C62046ABDADF4C1CF9DCF8C31EEB1E /* ALInstaImageZoom.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CA6A19B989608328BFCCFBA0D163F5A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3111B95F5C729EE9A616B87313A3303D /* Pods-ALInstaImageZoom_Tests-dummy.m in Sources */,
+				5C6293BAFFD83394F1081E580B9DF778 /* AL-Ext.swift in Sources */,
+				6962C5A98AAB07C470FD8AF5A6299436 /* ALInstaImageZoom-dummy.m in Sources */,
+				A48EBE0CEF35CCF27B954E60E3294635 /* ALInstaImageZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,52 +317,12 @@
 			target = F5DA33683AE077A5495C54680A89284A /* ALInstaImageZoom */;
 			targetProxy = 18537206A5B906A64A2697915A64F451 /* PBXContainerItemProxy */;
 		};
-		21B1699FDC7FC6119C7A5785228188A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ALInstaImageZoom_Example";
-			target = 5A104B5B5E45883A1A9F56615F24EF6B /* Pods-ALInstaImageZoom_Example */;
-			targetProxy = D2256CED67A4E2CD62B92AB077DCD63E /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		040C2664C776853C3C26E595551DC4E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C968DF568C58BD3326A607DB3B6011 /* Pods-ALInstaImageZoom_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ALInstaImageZoom_Tests/Pods-ALInstaImageZoom_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALInstaImageZoom_Tests/Pods-ALInstaImageZoom_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		142322AD38413544B9E550EBB8729033 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24E6E0A073381D33FC7958E6280507C0 /* Pods-ALInstaImageZoom_Example.release.xcconfig */;
+			baseConfigurationReference = 1E163D53D0B03BD16D598EFED3DC89B2 /* Pods-ALInstaImageZoom_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -479,9 +354,9 @@
 			};
 			name = Release;
 		};
-		31C946AAAB376DDFDF1B474E63C41AD8 /* Release */ = {
+		34A549E3FA69943D1725F9E32C56C579 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4505B922A746A9EB330714FD322CA41A /* ALInstaImageZoom.release.xcconfig */;
+			baseConfigurationReference = 540A357D90E8BCC544F907C25F74EFC0 /* ALInstaImageZoom.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -495,7 +370,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom.modulemap";
 				PRODUCT_MODULE_NAME = ALInstaImageZoom;
@@ -505,15 +380,14 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		3D7AADB3BA837BD4157D53381586927F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550B80019E916F8A06374E23BDF8B4B3 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */;
+			baseConfigurationReference = 8351718CFDD11C10B5BA5170BE9C21E2 /* Pods-ALInstaImageZoom_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -544,9 +418,9 @@
 			};
 			name = Debug;
 		};
-		85849C6E5972A535FAF8D51B4583B338 /* Debug */ = {
+		532575BC5202F28638CCBCCEBAFFCB8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CEE5CCDD7E44D766BDD5F8137E6591F /* ALInstaImageZoom.debug.xcconfig */;
+			baseConfigurationReference = 7C062112823840EF17590D4E6A84E4A9 /* ALInstaImageZoom.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -560,7 +434,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ALInstaImageZoom/ALInstaImageZoom.modulemap";
 				PRODUCT_MODULE_NAME = ALInstaImageZoom;
@@ -570,43 +444,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		96B9BDD5F4EC3AF96112B47FD95372AF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 379BEF15FB81CE10DCD7FF2C7AEE6A3E /* Pods-ALInstaImageZoom_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ALInstaImageZoom_Tests/Pods-ALInstaImageZoom_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ALInstaImageZoom_Tests/Pods-ALInstaImageZoom_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -743,15 +585,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4011DC11B34CCD46EAE4D66C6B2ECE /* Build configuration list for PBXNativeTarget "ALInstaImageZoom" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				85849C6E5972A535FAF8D51B4583B338 /* Debug */,
-				31C946AAAB376DDFDF1B474E63C41AD8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -761,11 +594,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B136C04E0DCA7C6912B03FAE6FE2C26 /* Build configuration list for PBXNativeTarget "Pods-ALInstaImageZoom_Tests" */ = {
+		A4D239BD10329E52BC4F10366DB82467 /* Build configuration list for PBXNativeTarget "ALInstaImageZoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96B9BDD5F4EC3AF96112B47FD95372AF /* Debug */,
-				040C2664C776853C3C26E595551DC4E0 /* Release */,
+				34A549E3FA69943D1725F9E32C56C579 /* Debug */,
+				532575BC5202F28638CCBCCEBAFFCB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
