@@ -5,11 +5,12 @@ final public class ALInstaImageZoom: UIImageView {
     
     private var panGesture = UIPanGestureRecognizer()
     private var pinchGesture = UIPinchGestureRecognizer()
-    private var initialPoint: CGPoint = .zero
     
     private var overlayView: UIView?
+    
     private var initialSuperView: UIView?
-    private var parentScrollView: UIScrollView?
+    
+    private var parentScrollViews: [(scrollView: UIScrollView, enable: Bool)]?
     
     private var copyImageView: UIImageView?
     
@@ -47,7 +48,6 @@ final public class ALInstaImageZoom: UIImageView {
         addGestureRecognizer(pinchGesture)
         
         isUserInteractionEnabled = true
-        initialPoint = center
     }
     
     
@@ -55,7 +55,6 @@ final public class ALInstaImageZoom: UIImageView {
         UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {
             self.transform = .identity
             self.copyImageView?.transform = .identity
-            self.center = self.initialPoint
         })
         hideOverlayView()
         unlockParentScrollView()
@@ -89,13 +88,12 @@ final public class ALInstaImageZoom: UIImageView {
             lockParentScrollView()
             
            
-
             if let topVC = UIApplication.getTopViewController(base: self.parentViewController) {
                 
                 let realFrame = topVC.view.convert(frame, from: superview)
                 copyImageView = UIImageView(frame: realFrame)
                 copyImageView?.image = image
-                copyImageView?.contentMode = .scaleAspectFit
+                copyImageView?.contentMode = contentMode
                 copyImageView?.isUserInteractionEnabled = false
                 alpha = 0
               
@@ -123,16 +121,17 @@ final public class ALInstaImageZoom: UIImageView {
         
         while tmpView?.superview != nil {
             tmpView = tmpView?.superview
-            if tmpView?.isKind(of: UIScrollView.self) ?? false {
-                parentScrollView = tmpView as? UIScrollView
-                parentScrollView?.isScrollEnabled = false
-                break
+            if tmpView?.isKind(of: UIScrollView.self) ?? false , let scrollView = tmpView as? UIScrollView {
+                parentScrollViews?.append((scrollView, scrollView.isUserInteractionEnabled ?? false))
+                scrollView.isScrollEnabled = false
             }
         }
     }
     
     private func unlockParentScrollView() {
-        parentScrollView?.isScrollEnabled = true
+        parentScrollViews?.forEach({ (scrollView, enable) in
+            scrollView.isScrollEnabled = enable
+        })
     }
     
     
@@ -141,14 +140,15 @@ final public class ALInstaImageZoom: UIImageView {
         switch gesture.state {
             case .began, .changed:
                 
-                    let pinchCenter = CGPoint(x: gesture.location(in: self).x - self.bounds.midX,
-                                              y: gesture.location(in: self).y - self.bounds.midY)
+                    let pinchCenter = CGPoint(x: gesture.location(in: superview).x - self.bounds.midX,
+                                              y: gesture.location(in: superview).y - self.bounds.midY)
                     
                     let transform = self.transform.translatedBy(x: pinchCenter.x, y: pinchCenter.y)
                         .scaledBy(x: gesture.scale, y: gesture.scale)
                         .translatedBy(x: -pinchCenter.x, y: -pinchCenter.y)
                     
-                    copyImageView?.transform = transform
+                    debugPrint("ALInsta: trans\(transform)")
+                    self.copyImageView?.transform = transform
                     self.transform = transform
                     gesture.scale = 1
                     
