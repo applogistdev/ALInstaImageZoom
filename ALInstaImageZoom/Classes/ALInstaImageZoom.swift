@@ -10,7 +10,7 @@ final public class ALInstaImageZoom: UIImageView {
     
     private var initialSuperView: UIView?
     
-    private var parentScrollViews: [(scrollView: UIScrollView, enable: Bool)]?
+    private var parentScrollViews = [(scrollView: UIScrollView, enable: Bool)]()
     
     private var copyImageView: UIImageView?
     
@@ -122,14 +122,14 @@ final public class ALInstaImageZoom: UIImageView {
         while tmpView?.superview != nil {
             tmpView = tmpView?.superview
             if tmpView?.isKind(of: UIScrollView.self) ?? false , let scrollView = tmpView as? UIScrollView {
-                parentScrollViews?.append((scrollView, scrollView.isUserInteractionEnabled ?? false))
+                parentScrollViews.append((scrollView, scrollView.isScrollEnabled ?? true))
                 scrollView.isScrollEnabled = false
             }
         }
     }
     
     private func unlockParentScrollView() {
-        parentScrollViews?.forEach({ (scrollView, enable) in
+        parentScrollViews.forEach({ (scrollView, enable) in
             scrollView.isScrollEnabled = enable
         })
     }
